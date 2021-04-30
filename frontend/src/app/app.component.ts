@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+
+  getClass() {
+    console.log("testClass");
+    return "testClass";
+  }
 }
